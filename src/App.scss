@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	background: url('https://phonoteka.org/uploads/posts/2021-05/1621445756_21-phonoteka_org-p-fon-solnechnaya-pogoda-23.jpg');
+	
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.AppBar{
+	backdrop-filter: blur(6px);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: .8;
+	background-color: #7e7979;
+}
+.textField{
+	color: #fff;
+	background-color:rgb(210, 234, 206);
+	width: 100%;
+	margin: 0 auto;
+}
+.weather{
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	position: absolute;
+	color: #000;
+backdrop-filter: blur(15px);
+	bottom: 0;
+	height: 23vh;
+}
